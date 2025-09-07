@@ -22,7 +22,7 @@ export default function About() {
           {/* Bio Section */}
           <div className={styles.cinematicTimelineContent} style={{width:'100%',background:'linear-gradient(135deg, rgba(30,58,138,0.05), rgba(124,58,237,0.05))'}}>
             <h2 className={styles.roleTitle} style={{fontSize:'32px',marginBottom:'20px'}}>
-              Hi, I'm Aditya Kumar
+              Hi, I&apos;m Aditya Kumar
             </h2>
             <p style={{color:'var(--muted)',fontSize:'18px',lineHeight:1.8,marginBottom:'20px'}}>
               A cybersecurity engineer with 1+ year of hands-on experience in SOC operations, penetration testing, 
@@ -36,7 +36,7 @@ export default function About() {
             </p>
             
             <p style={{color:'var(--muted)',lineHeight:1.8,marginBottom:'32px'}}>
-              Through internships at NOIDA Power Company and NIRVEONX, I've gained practical experience in threat 
+              Through internships at NOIDA Power Company and NIRVEONX, I&apos;ve gained practical experience in threat 
               detection, incident response, and compliance frameworks. My research on steganographic malware detection 
               was published at ICCAES Conference 2022, demonstrating my commitment to advancing the field.
             </p>
@@ -74,7 +74,7 @@ export default function About() {
             <div>
               <h3 style={{color:'var(--accent)',marginBottom:'12px'}}>💡 What Drives Me</h3>
               <p style={{color:'var(--muted)',lineHeight:1.8}}>
-                I believe cybersecurity is not just about protecting systems—it's about enabling innovation safely. 
+                I believe cybersecurity is not just about protecting systems—it&apos;s about enabling innovation safely. 
                 My goal is to bridge the gap between security and development, making secure practices accessible and 
                 practical for teams of all sizes.
               </p>

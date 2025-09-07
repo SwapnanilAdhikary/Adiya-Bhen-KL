@@ -52,7 +52,7 @@ export default function SteganographyDetection() {
             <div className={styles.cinematicTimelineContent} style={{width:'100%',marginBottom:'24px'}}>
               <h3 style={{color:'#10b981',marginBottom:'16px'}}>1. Entropy Analysis</h3>
               <p style={{color:'var(--muted)',marginBottom:'16px'}}>
-                Entropy measures the randomness in data. Steganographic content often increases an image's entropy:
+                Entropy measures the randomness in data. Steganographic content often increases an image&apos;s entropy:
               </p>
               <pre style={{background:'#1e293b',padding:'16px',borderRadius:'8px',overflowX:'auto',marginBottom:'16px'}}>
                 <code style={{color:'#94a3b8',fontSize:'14px'}}>{`import numpy as np
