@@ -1,56 +1,33 @@
 HOME PAGE: 
 
-- Turning Vision Into Reality With Code And Design. 
-- As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+- Defending Systems With Cybersecurity Engineering. 
+- I build secure-by-default applications and help teams protect cloud, network, and endpoint environments. 
+Explore red/blue team projects, secure SDLC guides, and research on threat modeling, penetration testing, SIEM detections, and incident response.
 
 --------------------------------------------------------------
 
 ABOUT PAGE:
 
-- Passion Fuels Purpose! 
-- Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional, 
-and user-centered digital experiences. With 4 years of experience in the field. I am always looking for 
-new and innovative ways to bring my clients' visions to life.
+- Mission-Driven Security Engineer
+- I specialize in secure architecture, adversary emulation, and building practical defenses. My focus areas include web app security, cloud hardening, container security, and security automation.
 
-- I believe that design is about more than just making things look pretty – it's about solving problems and 
-creating intuitive, enjoyable experiences for users. 
-
-- Whether I'm working on a website, mobile app, or 
-other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+- I enjoy translating risk into engineering tasks and enabling teams with actionable guidance, reproducible labs, and measured outcomes.
 
 --------------------------------------------------------------
 
 EXPERIENCE: 
 
-Software Engineer @Google
-2022-Present | Mountain View, CA
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization.
+Security Engineer @Company
+2022-Present | Remote
+Led application security program initiatives: threat modeling workshops, SDLC security controls, SAST/DAST/SCA pipelines, and developer enablement. Built Terraform guardrails and AWS security baselines.
 
-Intern @Facebook
-Summer 2021 | Menlo Park, CA.
-Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
+Penetration Tester (Contract)
+2021-2022 | Remote
+Performed web, API, and mobile assessments; wrote repeatable POC exploits; delivered clear remediation guidance and retest validation.
 
-Software Developer @Amazon
-2020-2021 | Seattle, WA.
-Worked on a team responsible for developing Amazon's mobile app, including implementing new features such 
-as product recommendations and user reviews, and optimizing the app's performance and reliability.
-
-Software Developer Intern @Microsoft
-Summer 2019 | Redmond, WA.
-Worked on a team responsible for developing new features for Microsoft's Windows operating system, 
-including implementing a new user interface for a system settings panel and optimizing the performance of 
-a core system component.
-
-Teaching Assistant @MIT
-Fall 2018 | Massachusetts Ave, Cambridge, MA.
-Assisted in teaching a course on computer programming, held office hours to help students with assignments, 
-and graded exams and assignments.
+Security Operations (Blue Team)
+2020-2021 | Remote
+Built SIEM detections, tuned EDR, and automated triage with playbooks. Drove mean time to detect/respond improvements.
 
 
 --------------------------------------------------------------
@@ -58,63 +35,37 @@ and graded exams and assignments.
 EDUCATION:
 
 Bachelor Of Science In Computer Science
-2016-2020 | Massachusetts Institute Of Technology (MIT)
-Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-Intelligence.
+Security Concentration
+Relevant work in cryptography, operating systems, networks, and secure software engineering.
 
-Master Of Computer Science
-2020-2022 | Stanford University
-Completed a master's project on deep learning, developing a new neural network architecture for natural 
-language understanding.
-
-Online Coursework
-2016-2020 | Coursera And EdX
-Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine 
-Learning Engineering.
+Certifications
+CompTIA Security+, AWS Security Specialty (in progress), PNPT/OSCP (targeted).
 
 --------------------------------------------------------------
 
 PROJECTS PAGE:
 
-- Imagination Trumps Knowledge!
+- Practical Security Projects
 
-Crypto Screener Application
-A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency.
+Threat Modeling Toolkit
+Lightweight framework and examples to run scenario-based threat modeling aligned to STRIDE and kill chain thinking.
 
-React Portfolio Website
-A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth 
-page transitions, cool background effects, unique design and it is mobile responsive.
+Purple Lab: ATT&CK Emulation
+Small lab using Caldera/Atomic Red Team to emulate behaviors; includes Sigma/Elastic detections and response playbooks.
 
 --------------------------------------------------------------
 
 ARTICLES PAGE:
 
-- Words Can Change The World! 
+- Security Engineering Notes 
 
-Build A Custom Pagination Component In Reactjs From Scratch
-Learn how to build a custom pagination component in ReactJS from scratch. 
-Follow this step-by-step guide to integrate Pagination component in your ReactJS project.
-9 min read
+Build Threat Models Developers Actually Use
+A pragmatic approach to integrating security reviews into sprint rituals with templates and examples.
+7 min read
 
-Creating Stunning Loading Screens In React: Build 3 Types Of Loading Screens
-Learn how to create stunning loading screens in React with 3 different methods. 
-Discover how to use React-Loading, React-Lottie & build a custom loading screen. 
-Improve the user experience.
-10 min read
-
-Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling
-
-Silky Smooth Scrolling In Reactjs: A Step-By-Step Guide For React Developers
-
-Creating An Efficient Modal Component In React Using Hooks And Portals
-
-Build A Fabulous Todo List App With React, Redux And Framer-Motion
-
-Redux Simplified: A Beginner's Guide For Web Developers
-
-What Is Higher Order Component (Hoc) In React?
+From Findings To Fixes: Writing Actionable Remediation
+Guidelines for translating pen-test and audit results into developer-friendly, testable tasks.
+8 min read
 
 
 
