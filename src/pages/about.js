@@ -18,7 +18,7 @@ export default function About() {
       </div>
       
       <main className={styles.page}>
-        <div style={{display:'grid',gridTemplateColumns:'1.5fr 0.5fr',gap:'32px',marginBottom:'60px'}}>
+        <div className={styles.aboutPageGrid} style={{marginBottom:'60px'}}>
           {/* Bio Section */}
           <div className={styles.cinematicTimelineContent} style={{width:'100%',background:'linear-gradient(135deg, rgba(30,58,138,0.05), rgba(124,58,237,0.05))'}}>
             <h2 className={styles.roleTitle} style={{fontSize:'32px',marginBottom:'20px'}}>
@@ -43,7 +43,7 @@ export default function About() {
             
             <div style={{marginBottom:'32px'}}>
               <h3 style={{color:'var(--accent)',marginBottom:'16px'}}>🎯 Core Expertise</h3>
-              <div style={{display:'grid',gridTemplateColumns:'repeat(3, 1fr)',gap:'12px'}}>
+              <div className={styles.expertiseGrid}>
                 <div style={{padding:'12px',background:'rgba(14,165,233,0.05)',borderRadius:'12px',border:'1px solid rgba(14,165,233,0.2)'}}>
                   <strong style={{color:'var(--accent)'}}>Offensive Security</strong>
                   <p style={{fontSize:'14px',color:'var(--muted)',marginTop:'4px'}}>Penetration Testing, Vulnerability Assessment</p>
@@ -135,7 +135,7 @@ export default function About() {
         {/* Skills Grid */}
         <div style={{marginBottom:'60px'}}>
           <h2 style={{fontSize:'32px',marginBottom:'32px',textAlign:'center'}}>Technical Arsenal</h2>
-          <div style={{display:'grid',gridTemplateColumns:'repeat(3, 1fr)',gap:'24px'}}>
+          <div className={styles.skillsGrid}>
             <div className={styles.cinematicTimelineContent} style={{width:'100%'}}>
               <h3 style={{color:'var(--accent)',marginBottom:'16px',fontSize:'20px'}}>🔍 Penetration Testing</h3>
               <div style={{display:'flex',flexWrap:'wrap',gap:'8px'}}>
@@ -188,7 +188,7 @@ export default function About() {
         </div>
 
         {/* Education & Certifications */}
-        <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:'32px',marginBottom:'48px'}}>
+        <div className={styles.eduCertGrid} style={{marginBottom:'48px'}}>
           <div className={styles.cinematicTimelineContent} style={{width:'100%',background:'linear-gradient(135deg, rgba(99,102,241,0.05), rgba(168,85,247,0.05))'}}>
             <h3 style={{color:'var(--accent)',marginBottom:'20px',fontSize:'24px'}}>🎓 Education</h3>
             <div style={{marginBottom:'16px'}}>

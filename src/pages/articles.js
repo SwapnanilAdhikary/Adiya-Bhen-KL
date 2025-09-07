@@ -21,7 +21,7 @@ export default function Articles() {
         <div style={{marginBottom:'60px'}}>
           <h2 style={{fontSize:'32px',marginBottom:'32px',textAlign:'center'}}>Featured Articles</h2>
           
-          <div style={{display:'grid',gridTemplateColumns:'repeat(2, 1fr)',gap:'32px'}}>
+          <div className={styles.articlesPageGrid}>
             {/* Article 1 */}
             <Link href="/articles/steganography-detection">
             <div className={styles.cinematicTimelineContent} style={{width:'100%',padding:0,overflow:'hidden',cursor:'pointer',transition:'all 0.3s ease'}}
@@ -151,7 +151,7 @@ export default function Articles() {
         {/* Upcoming Articles */}
         <div style={{marginTop:'60px',padding:'40px',background:'rgba(99,102,241,0.05)',borderRadius:'20px'}}>
           <h2 style={{fontSize:'28px',marginBottom:'24px',textAlign:'center'}}>Coming Soon</h2>
-          <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:'20px'}}>
+          <div className={styles.comingSoonGrid}>
             <div style={{background:'var(--surface)',padding:'20px',borderRadius:'12px',border:'1px solid rgba(99,102,241,0.2)'}}>
               <h4 style={{color:'#6366f1',marginBottom:'8px'}}>Cloud Security Posture Management in AWS</h4>
               <p style={{color:'var(--muted)',fontSize:'14px'}}>

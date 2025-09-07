@@ -24,7 +24,7 @@ export default function Projects() {
           <div style={{display:'grid',gap:'32px'}}>
             {/* Steganalysis Project */}
             <div className={styles.cinematicTimelineContent} style={{width:'100%',marginBottom:'24px',background:'linear-gradient(135deg, rgba(14,165,233,0.05), rgba(168,85,247,0.05))'}}>
-              <div style={{display:'grid',gridTemplateColumns:'1.5fr 1fr',gap:'24px',alignItems:'center'}}>
+              <div className={styles.projectCardGrid}>
                 <div>
                   <span className={styles.dateRange} style={{background:'linear-gradient(135deg, #10b981, #3b82f6)',color:'white'}}>
                     🔒 Security Research
@@ -63,7 +63,7 @@ export default function Projects() {
 
             {/* Session Hijacking Project */}
             <div className={styles.cinematicTimelineContent} style={{width:'100%',background:'linear-gradient(135deg, rgba(168,85,247,0.05), rgba(236,72,153,0.05))'}}>
-              <div style={{display:'grid',gridTemplateColumns:'1.5fr 1fr',gap:'24px',alignItems:'center'}}>
+              <div className={styles.projectCardGrid}>
                 <div>
                   <span className={styles.dateRange} style={{background:'linear-gradient(135deg, #ec4899, #a855f7)',color:'white'}}>
                     🌐 Web Security

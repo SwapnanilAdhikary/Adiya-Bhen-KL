@@ -40,6 +40,56 @@
   margin: 32px 0 24px 0;
 }
 
+/* About page specific grid */
+.aboutPageGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  gap: 32px;
+}
+
+/* Project card grid */
+.projectCardGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+/* Articles page grid */
+.articlesPageGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+/* Expertise grid */
+.expertiseGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* Skills grid */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* Education and Certification grid */
+.eduCertGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+/* Coming Soon grid */
+.comingSoonGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 /* Articles */
 .articleGrid {
   display: grid;
@@ -439,6 +489,258 @@
     left: 0;
     bottom: 0;
     transform: translate(-10%, 10%);
+  }
+}
+
+/* Mobile Phone Screens */
+@media (max-width: 640px) {
+  /* Navbar Mobile */
+  .nav {
+    grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .navLeft {
+    order: 2;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .navLink {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  .brand {
+    order: 1;
+    margin: 0 auto;
+  }
+
+  .navRight {
+    order: 3;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .iconLink {
+    padding: 4px;
+  }
+
+  /* Hero Mobile */
+  .hero {
+    margin: 12px auto;
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+
+  .profileWrap {
+    max-width: 300px;
+  }
+
+  .hireWrap {
+    transform: scale(0.7);
+    left: -20px;
+    bottom: -20px;
+  }
+
+  .cta {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .resumeBtn,
+  .contactLink {
+    width: 100%;
+    text-align: center;
+    padding: 12px 16px;
+  }
+
+  /* Page Container Mobile */
+  .page {
+    padding: 0 16px 32px 16px;
+    margin: 16px auto;
+  }
+
+  .pageTitle {
+    font-size: 32px;
+  }
+
+  .pageHero {
+    font-size: 36px;
+    margin: 16px 0;
+  }
+
+  /* Cards Mobile */
+  .cardList {
+    gap: 12px;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  /* Articles Grid Mobile */
+  .articleGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  /* About Grid Mobile */
+  .aboutGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .aboutPageGrid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .projectCardGrid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .articlesPageGrid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .expertiseGrid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+
+  .skillsGrid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .eduCertGrid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .comingSoonGrid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  /* Stats Grid Mobile */
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .statCard {
+    padding: 20px;
+  }
+
+  .statNumber {
+    font-size: 36px;
+  }
+
+  /* Experience Hero Mobile */
+  .experienceHero {
+    min-height: 40vh;
+    margin: -16px -16px 32px -16px;
+    padding: 32px 16px;
+  }
+
+  .experienceTitle {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .experienceSubtitle {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Timeline Mobile */
+  .cinematicTimeline::before {
+    left: 16px !important;
+  }
+
+  .cinematicTimelineItem {
+    justify-content: flex-start !important;
+    margin-bottom: 32px;
+  }
+
+  .cinematicTimelineContent {
+    width: calc(100% - 48px) !important;
+    margin-left: 48px !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+    padding: 16px !important;
+  }
+
+  .cinematicDot {
+    left: 16px !important;
+  }
+
+  .roleTitle {
+    font-size: 20px;
+  }
+
+  .dateRange {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  .techStack {
+    gap: 6px;
+  }
+
+  .techBadge {
+    font-size: 11px;
+    padding: 4px 8px;
+  }
+
+  /* Featured Card Mobile */
+  .featuredBody {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 12px;
+  }
+
+  .featuredImage {
+    height: 200px;
+  }
+
+  /* Chips Mobile */
+  .chip {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+
+  .chipRow {
+    gap: 6px;
+  }
+
+  /* Timeline Items Mobile */
+  .timelineCard {
+    padding: 12px;
+  }
+
+  .timelineTitle {
+    font-size: 16px;
+  }
+
+  .timelineDate {
+    font-size: 12px;
   }
 }
 
