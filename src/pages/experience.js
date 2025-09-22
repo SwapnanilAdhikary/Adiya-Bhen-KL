@@ -31,7 +31,26 @@ export default function Experience() {
             <div className={styles.statLabel}>Years Experience</div>
           </div>
         </div>
-
+        <div className={styles.cinematicTimeline}>
+          <div className={`${styles.cinematicTimelineItem} ${styles.right}`}>
+            <div className={styles.cinematicDot}></div>
+            <div className={styles.cinematicTimelineContent}>
+              <h3 className={styles.roleTitle}>Cyber Security Analyst</h3>
+              <p className={styles.companyName}>The Indian Express</p>
+              <span className={styles.dateRange}>Aug 2025 – sep 2025</span>
+              <ul style={{lineHeight:1.8, marginBottom:12}}>
+                <li>Performed VAPT to identify critical vulnerabilities and researched crawler protection for future security improvements.</li>
+                <li>Showed quick learning, proactive attitude, and applied skills effectively to real-world problems.</li>
+              </ul>
+              <div className={styles.techStack}>
+                <span className={styles.techBadge}>SIEM</span>
+                <span className={styles.techBadge}>MDM</span>
+                <span className={styles.techBadge}>Threat Detection</span>
+                <span className={styles.techBadge}>Incident Response</span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className={styles.cinematicTimeline}>
           <div className={`${styles.cinematicTimelineItem} ${styles.left}`}>
             <div className={styles.cinematicDot}></div>
